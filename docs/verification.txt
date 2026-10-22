@@ -1,0 +1,21 @@
+$ python --version
+Python 3.12.14
+Exit code: 0
+
+$ python main.py
+Barber Booking — запись в барбершоп
+Услуга: Мужская стрижка
+Дата: 22.10.2026
+Время: 14:00–15:00
+Базовая стоимость: 1500.00 руб.
+Стоимость со скидкой: 1350.00 руб.
+Запись подтверждена для клиента Алексей.
+Exit code: 0
+
+$ python -m pytest -q
+.............                                                     [100%]
+13 passed, 7 subtests passed in 0.00s
+Exit code: 0
+
+$ python -m pycodestyle main.py tests/test_main.py
+Exit code: 0
