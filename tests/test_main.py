@@ -3,7 +3,7 @@
 import unittest
 from datetime import date, timedelta
 
-from main import calculate_price, get_booking_status, is_slot_available
+from bookings import calculate_price, get_booking_status, is_slot_available
 
 
 class BookingTests(unittest.TestCase):

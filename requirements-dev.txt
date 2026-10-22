@@ -1,2 +1,1 @@
-pytest>=8,<10
-pycodestyle>=2.12,<3
+-r requirements.txt
